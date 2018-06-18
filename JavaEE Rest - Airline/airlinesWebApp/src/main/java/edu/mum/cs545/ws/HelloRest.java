@@ -19,7 +19,8 @@ public class HelloRest {
 
 	@GET
 	public String helloWorld(@DefaultValue("Gorgeous") @QueryParam("name") String name) {
-		return "Hello " + name + "!";
+
+	    return "Hello " + name + "!";
 	}
 
 	@Path("airline")

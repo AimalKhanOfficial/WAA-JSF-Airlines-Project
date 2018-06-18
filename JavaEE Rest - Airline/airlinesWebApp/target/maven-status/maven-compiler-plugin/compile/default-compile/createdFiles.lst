@@ -5,6 +5,7 @@ edu\mum\cs545\test\TestAirlineService.class
 edu\mum\gf\workaround\CDIBeanManager.class
 edu\mum\gf\workaround\JpaUtil.class
 cs545\airline\model\Flight.class
+edu\mum\cs545\ws\AirportServiceRest.class
 edu\mum\cs545\test\TestAirportService.class
 edu\mum\cs545\ws\HelloRest.class
 edu\mum\gf\workaround\ResouceReleaseListener.class

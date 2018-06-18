@@ -31,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="AirplaneService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cs545/airline/service/AirplaneService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="476">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
         </entry>
@@ -44,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs545/ws/AirlineServiceRest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="426">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <caret line="28" column="5" selection-start-line="15" selection-start-column="3" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,14 +52,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloRest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs545/ws/HelloRest.java">
+      <file leaf-file-name="Airline.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cs545/airline/model/Airline.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="20" column="52" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="52" />
+            <state relative-caret-position="221">
+              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Flight.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cs545/airline/model/Flight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="import.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/import.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AirportServiceRest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs545/ws/AirportServiceRest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloRest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs545/ws/HelloRest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -67,8 +124,8 @@
       <file leaf-file-name="persistence.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="113" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="113" />
+            <state relative-caret-position="318">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -86,15 +143,18 @@
     <findStrings>
       <find>rs</find>
       <find>HelloRest</find>
+      <find>eclipselink.ddl-generation</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs545/ws/AirplaneRest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs545/ws/AirlineServiceRest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs545/ws/HelloRest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs545/ws/AirportServiceRest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -432,12 +492,12 @@
       <workItem from="1529195194568" duration="676000" />
       <workItem from="1529255710168" duration="1379000" />
       <workItem from="1529266099086" duration="375000" />
-      <workItem from="1529266534569" duration="2844000" />
+      <workItem from="1529266534569" duration="8273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5274000" />
+    <option name="totallyTimeSpent" value="10703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -446,7 +506,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32952693" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.09228442" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.15582451" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="CDI" order="3" />
       <window_info id="Capture Tool" order="2" />
@@ -456,7 +516,7 @@
       <window_info anchor="right" id="JSF" order="3" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.6166395" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.38336053" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32952693" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -464,9 +524,9 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34747145" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41598696" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -487,31 +547,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/mum/cs545/ws/AirportServiceRest.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs545/airline/service/FlightService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs545/airline/service/AirplaneService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/gf/workaround/CDIBeanManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cs545/airline/service/FlightService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -647,21 +694,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs545/airline/model/Airline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cs545/airline/service/AirportService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs545/airline/service/AirplaneService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
@@ -710,22 +743,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs545/airline/service/AirlineService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/import.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/test.xhtml">
       <provider selected="true" editor-type-id="text-editor">
@@ -736,13 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-109">
-          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -806,37 +818,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs545/airline/service/AirlineService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="197">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs545/airline/service/AirplaneService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs545/airline/model/Airline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/import.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs545/ws/HelloRest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs545/ws/AirlineServiceRest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <caret line="28" column="5" selection-start-line="15" selection-start-column="3" selection-end-line="28" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs545/ws/AirportServiceRest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="113" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs545/ws/HelloRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="20" column="52" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="52" />
+        <state relative-caret-position="175">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs545/airline/model/Airport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs545/airline/model/Flight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
         </state>
       </provider>
     </entry>
